@@ -12,15 +12,16 @@ class TestPage extends StatefulWidget {
 class _TestPageState extends State<TestPage> {
   @override
   Widget build(BuildContext context) {
+    final mavzu = ModalRoute.of(context)!.settings.arguments as List<Map>;
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
         backgroundColor: const Color.fromARGB(255, 53, 196, 167),
         toolbarHeight: 60,
         leading: IconButton(onPressed: (){Navigator.pop(context);}, icon: const Icon(Icons.arrow_back, color: Colors.black)),
-        title: const Text(
-          'Natural sonlar, ularni qo\'shish va ayirish', 
-          style: TextStyle(fontSize: 20, overflow: TextOverflow.ellipsis, fontWeight: FontWeight.w700, color: Colors.black)),
+        title: Text(
+          mavzu[0]['mavzular'][6]['mavzu nomi'], 
+          style: const TextStyle(fontSize: 20, overflow: TextOverflow.ellipsis, fontWeight: FontWeight.w700, color: Colors.black)),
       ),
       body: const Column(
         crossAxisAlignment: CrossAxisAlignment.start,

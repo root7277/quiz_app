@@ -17,7 +17,10 @@ class _FanNomiState extends State<FanNomi> {
       padding: const EdgeInsets.only(left: 20, right: 20, top: 30),
       child: InkWell(
         onTap: () {
-          Navigator.pushNamed(context, 'mavzular', arguments: sentMavzu);
+          setState(() {
+            
+          });
+          Navigator.pushNamed(context, 'mavzular', arguments: sentMavzu[0]);
         },
         child: Container(
           width: 300,

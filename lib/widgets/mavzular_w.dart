@@ -25,6 +25,9 @@ class _MavzularWidgetState extends State<MavzularWidget> {
               Expanded(
                 child: TextButton(
                   onPressed: (){
+                    setState(() {
+                      
+                    });
                     Navigator.pushNamed(context, 'test', arguments: getTest);
                   },
                   child: Text(
