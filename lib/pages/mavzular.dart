@@ -19,11 +19,7 @@ class _FanMavzusiState extends State<FanMavzusi> {
         leading: IconButton(onPressed: (){Navigator.pop(context);}, icon: const Icon(Icons.arrow_back, color: Colors.black)),
         title: const Text('Mavzuni tanlang', style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700, color: Colors.black)),
       ),
-      body: ListView.builder(
-        itemBuilder: (context, index){
-          return const MavzularWidget();
-        }
-      )
+      body: const MavzularWidget(),
     );
   }
 }

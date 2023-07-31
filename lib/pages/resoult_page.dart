@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quiz_app/map/quiz_api.dart';
 
 class ResoultPage extends StatefulWidget {
   const ResoultPage({super.key});
@@ -24,7 +25,7 @@ class _ResoultPageState extends State<ResoultPage> {
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Text('Umumiy savollar soni 10 ta', style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Color.fromARGB(255, 16, 47, 72))),
+              Text('Umumiy savollar soni ${quizs[0]['mavzular'][0]['test'].length.toString()} ta', style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Color.fromARGB(255, 16, 47, 72))),
               const SizedBox(height: 20),
               const Row(
                 children: [
@@ -32,7 +33,7 @@ class _ResoultPageState extends State<ResoultPage> {
                     children: [
                       Text("To'g'ri javoblar", style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Color.fromARGB(255, 23, 244, 30))),
                       SizedBox(height: 5),
-                      Text('7 ta', style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Color.fromARGB(255, 23, 244, 30))),
+                      Text('2 ta', style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Color.fromARGB(255, 23, 244, 30))),
                     ],
                   ),
                   SizedBox(width: 50),
@@ -46,7 +47,7 @@ class _ResoultPageState extends State<ResoultPage> {
                 ],
               ),
               const SizedBox(height: 80),
-              const Text('Umumiy ball:  8.5', style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Color.fromARGB(255, 16, 47, 72))),
+              const Text('Umumiy ball:  3.5', style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Color.fromARGB(255, 16, 47, 72))),
               const SizedBox(height: 100),
               Padding(
               padding: const EdgeInsets.only(left: 20, right: 20),

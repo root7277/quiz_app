@@ -19,13 +19,13 @@ class _TestPageState extends State<TestPage> {
         toolbarHeight: 60,
         leading: IconButton(onPressed: (){Navigator.pop(context);}, icon: const Icon(Icons.arrow_back, color: Colors.black)),
         title: const Text(
-          'fjfdf fjeiofef fkffoefdf iekf fhoihdfrc j ff       hsfhsdufhdiufsb fhdfhfjf fhfjfhjkfsfhujf hfwihj uieh kjhfihfi  huiw  h wifhw iffk hjjiw fhf sjfhw9f ikf?', 
+          'Natural sonlar, ularni qo\'shish va ayirish', 
           style: TextStyle(fontSize: 20, overflow: TextOverflow.ellipsis, fontWeight: FontWeight.w700, color: Colors.black)),
       ),
-      body: Column(
+      body: const Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Padding(
+          Padding(
             padding: EdgeInsets.only(left: 20, right: 20, top: 20),
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -37,14 +37,9 @@ class _TestPageState extends State<TestPage> {
             ),
           ),
           Expanded(
-            child: ListView.builder(
-              itemCount: 3,
-              itemBuilder: (context, index){
-                return const TestWidget();
-              }
-            ),
+            child: TestWidget(),
           ),
-          const Padding(
+          Padding(
             padding: EdgeInsets.only(bottom: 20),
             child: ElevatedBottomWidget(),
           )

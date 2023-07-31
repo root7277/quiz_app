@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quiz_app/map/quiz_api.dart';
 
 class FanNomi extends StatefulWidget {
   final String text;
@@ -11,11 +12,12 @@ class FanNomi extends StatefulWidget {
 class _FanNomiState extends State<FanNomi> {
   @override
   Widget build(BuildContext context) {
+    List<Map> sentMavzu = quizs;
     return Padding(
       padding: const EdgeInsets.only(left: 20, right: 20, top: 30),
       child: InkWell(
         onTap: () {
-          Navigator.pushNamed(context, 'mavzular');
+          Navigator.pushNamed(context, 'mavzular', arguments: sentMavzu);
         },
         child: Container(
           width: 300,

@@ -967,13 +967,1933 @@ List<Map> quizs = [
 
   {
     'fan nomi': 'Fizika',
+    'mavzular': [
+      {
+        'id': 'I',
+        'mavzu nomi': 'Kinеmatika asoslari.',
+        'test': [
+          {
+            'id': 'I',
+            'savol': 'Fizika bu ...',
+            'kalit': [
+              {
+                'text': "tabiat hodisalarining muayyan qonuniyatlarini o‘rganuvchi fan;"
+              },
+              {
+                'text': "faqat materiyaning tuzilishini o'rganuvchi fan;"
+              },
+              {
+                'text': "tabiiy hodisalarning eng oddiy va ayni paytda eng umumiy qonuniyatlarini, materiyaning xossalari va tuzilishini hamda harakat qonuniyatlarini o‘rganuvchi fan;"
+              },
+              {
+                'text': "tabiatning eng oddiy va ayni paytda eng umumiy qonuniyatlarini o‘rganadigan fan."
+              }
+            ]
+          },
+          {
+            'id': 'II',
+            'savol': 'Moddiy nuqta - bu ...',
+            'kalit': [
+              {
+                'text': "o'lchamlari hisobga olingan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "bu masalada uning o'lchamlarini e'tiborsiz qoldirib bo'lmaydigan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "o'lchamlarini e'tiborsiz qoldirib bo'lmaydigan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "bu masalada o'lchamlarini e'tiborsiz qoldirish mumkin bo'lgan massali jism."
+              }
+            ]
+          },
+          {
+            'id': 'III',
+            'savol': "Bir tekis to'g'ri chiziqli harakat ... hisoblanadi",
+            'kalit': [
+              {
+                'text': "jism bir tekis harakatlanadigan traektoriya;"
+              },
+              {
+                'text': " tananing tezlik bilan harakat qilmaydigan harakati;"
+              },
+              {
+                'text': "jism doimiy modul tezlikda harakatlanadigan harakat"
+              },
+              {
+                'text': "jism doimiy modul tezlik bilan harakat qilmaydigan harakat y = const."
+              }
+            ]
+          },
+          {
+            'id': 'IV',
+            'savol': "Quyidagi jismlardan qaysi biri ko'rinadigan traektoriyani qoldiradi?",
+            'kalit': [
+              {
+                'text': "Tog'larda tosh qulashi"
+              },
+              {
+                'text': "O'yin davomida to'p"
+              },
+              {
+                'text': "Chang'ichi yangi trekni yotqizmoqda"
+              },
+              {
+                'text': "Balandlikka sakrashni amalga oshirayotgan sportchi"
+              }
+            ]
+          },
+          {
+            'id': 'V',
+            'savol': "Quyidagi jismlardan qaysi biri to‘g‘ri chiziq bo‘ylab harakatlanadi?",
+            'kalit': [
+              {
+                'text': "daqiqa yelkasining oxiri"
+              },
+              {
+                'text': "Avtomobil keskin burilishda"
+              },
+              {
+                'text': "belanchak ustidagi bola"
+              },
+              {
+                'text': "Balandlikka sakrashni amalga oshirayotgan sportchi"
+              }
+            ]
+          },
+        ]
+      },
+      {
+        'id': 'II',
+        'mavzu nomi': 'Dinamika. Nyuton qonunlari.',
+        'test': [
+          {
+            'id': 'I',
+            'savol': 'Fizika bu ...',
+            'kalit': [
+              {
+                'text': "tabiat hodisalarining muayyan qonuniyatlarini o‘rganuvchi fan;"
+              },
+              {
+                'text': "faqat materiyaning tuzilishini o'rganuvchi fan;"
+              },
+              {
+                'text': "tabiiy hodisalarning eng oddiy va ayni paytda eng umumiy qonuniyatlarini, materiyaning xossalari va tuzilishini hamda harakat qonuniyatlarini o‘rganuvchi fan;"
+              },
+              {
+                'text': "tabiatning eng oddiy va ayni paytda eng umumiy qonuniyatlarini o‘rganadigan fan."
+              }
+            ]
+          },
+          {
+            'id': 'II',
+            'savol': 'Moddiy nuqta - bu ...',
+            'kalit': [
+              {
+                'text': "o'lchamlari hisobga olingan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "bu masalada uning o'lchamlarini e'tiborsiz qoldirib bo'lmaydigan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "o'lchamlarini e'tiborsiz qoldirib bo'lmaydigan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "bu masalada o'lchamlarini e'tiborsiz qoldirish mumkin bo'lgan massali jism."
+              }
+            ]
+          },
+          {
+            'id': 'III',
+            'savol': "Bir tekis to'g'ri chiziqli harakat ... hisoblanadi",
+            'kalit': [
+              {
+                'text': "jism bir tekis harakatlanadigan traektoriya;"
+              },
+              {
+                'text': " tananing tezlik bilan harakat qilmaydigan harakati;"
+              },
+              {
+                'text': "jism doimiy modul tezlikda harakatlanadigan harakat"
+              },
+              {
+                'text': "jism doimiy modul tezlik bilan harakat qilmaydigan harakat y = const."
+              }
+            ]
+          },
+          {
+            'id': 'IV',
+            'savol': "Quyidagi jismlardan qaysi biri ko'rinadigan traektoriyani qoldiradi?",
+            'kalit': [
+              {
+                'text': "Tog'larda tosh qulashi"
+              },
+              {
+                'text': "O'yin davomida to'p"
+              },
+              {
+                'text': "Chang'ichi yangi trekni yotqizmoqda"
+              },
+              {
+                'text': "Balandlikka sakrashni amalga oshirayotgan sportchi"
+              }
+            ]
+          },
+          {
+            'id': 'V',
+            'savol': "Quyidagi jismlardan qaysi biri to‘g‘ri chiziq bo‘ylab harakatlanadi?",
+            'kalit': [
+              {
+                'text': "daqiqa yelkasining oxiri"
+              },
+              {
+                'text': "Avtomobil keskin burilishda"
+              },
+              {
+                'text': "belanchak ustidagi bola"
+              },
+              {
+                'text': "Balandlikka sakrashni amalga oshirayotgan sportchi"
+              }
+            ]
+          },
+        ]
+      },
+      {
+        'id': 'III',
+        'mavzu nomi': 'Saqlanish qonunlari.',
+        'test': [
+          {
+            'id': 'I',
+            'savol': 'Fizika bu ...',
+            'kalit': [
+              {
+                'text': "tabiat hodisalarining muayyan qonuniyatlarini o‘rganuvchi fan;"
+              },
+              {
+                'text': "faqat materiyaning tuzilishini o'rganuvchi fan;"
+              },
+              {
+                'text': "tabiiy hodisalarning eng oddiy va ayni paytda eng umumiy qonuniyatlarini, materiyaning xossalari va tuzilishini hamda harakat qonuniyatlarini o‘rganuvchi fan;"
+              },
+              {
+                'text': "tabiatning eng oddiy va ayni paytda eng umumiy qonuniyatlarini o‘rganadigan fan."
+              }
+            ]
+          },
+          {
+            'id': 'II',
+            'savol': 'Moddiy nuqta - bu ...',
+            'kalit': [
+              {
+                'text': "o'lchamlari hisobga olingan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "bu masalada uning o'lchamlarini e'tiborsiz qoldirib bo'lmaydigan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "o'lchamlarini e'tiborsiz qoldirib bo'lmaydigan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "bu masalada o'lchamlarini e'tiborsiz qoldirish mumkin bo'lgan massali jism."
+              }
+            ]
+          },
+          {
+            'id': 'III',
+            'savol': "Bir tekis to'g'ri chiziqli harakat ... hisoblanadi",
+            'kalit': [
+              {
+                'text': "jism bir tekis harakatlanadigan traektoriya;"
+              },
+              {
+                'text': " tananing tezlik bilan harakat qilmaydigan harakati;"
+              },
+              {
+                'text': "jism doimiy modul tezlikda harakatlanadigan harakat"
+              },
+              {
+                'text': "jism doimiy modul tezlik bilan harakat qilmaydigan harakat y = const."
+              }
+            ]
+          },
+          {
+            'id': 'IV',
+            'savol': "Quyidagi jismlardan qaysi biri ko'rinadigan traektoriyani qoldiradi?",
+            'kalit': [
+              {
+                'text': "Tog'larda tosh qulashi"
+              },
+              {
+                'text': "O'yin davomida to'p"
+              },
+              {
+                'text': "Chang'ichi yangi trekni yotqizmoqda"
+              },
+              {
+                'text': "Balandlikka sakrashni amalga oshirayotgan sportchi"
+              }
+            ]
+          },
+          {
+            'id': 'V',
+            'savol': "Quyidagi jismlardan qaysi biri to‘g‘ri chiziq bo‘ylab harakatlanadi?",
+            'kalit': [
+              {
+                'text': "daqiqa yelkasining oxiri"
+              },
+              {
+                'text': "Avtomobil keskin burilishda"
+              },
+              {
+                'text': "belanchak ustidagi bola"
+              },
+              {
+                'text': "Balandlikka sakrashni amalga oshirayotgan sportchi"
+              }
+            ]
+          },
+        ]
+      },
+      {
+        'id': 'IV',
+        'mavzu nomi': 'Kuch va impuls momenti.',
+        'test': [
+          {
+            'id': 'I',
+            'savol': 'Fizika bu ...',
+            'kalit': [
+              {
+                'text': "tabiat hodisalarining muayyan qonuniyatlarini o‘rganuvchi fan;"
+              },
+              {
+                'text': "faqat materiyaning tuzilishini o'rganuvchi fan;"
+              },
+              {
+                'text': "tabiiy hodisalarning eng oddiy va ayni paytda eng umumiy qonuniyatlarini, materiyaning xossalari va tuzilishini hamda harakat qonuniyatlarini o‘rganuvchi fan;"
+              },
+              {
+                'text': "tabiatning eng oddiy va ayni paytda eng umumiy qonuniyatlarini o‘rganadigan fan."
+              }
+            ]
+          },
+          {
+            'id': 'II',
+            'savol': 'Moddiy nuqta - bu ...',
+            'kalit': [
+              {
+                'text': "o'lchamlari hisobga olingan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "bu masalada uning o'lchamlarini e'tiborsiz qoldirib bo'lmaydigan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "o'lchamlarini e'tiborsiz qoldirib bo'lmaydigan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "bu masalada o'lchamlarini e'tiborsiz qoldirish mumkin bo'lgan massali jism."
+              }
+            ]
+          },
+          {
+            'id': 'III',
+            'savol': "Bir tekis to'g'ri chiziqli harakat ... hisoblanadi",
+            'kalit': [
+              {
+                'text': "jism bir tekis harakatlanadigan traektoriya;"
+              },
+              {
+                'text': " tananing tezlik bilan harakat qilmaydigan harakati;"
+              },
+              {
+                'text': "jism doimiy modul tezlikda harakatlanadigan harakat"
+              },
+              {
+                'text': "jism doimiy modul tezlik bilan harakat qilmaydigan harakat y = const."
+              }
+            ]
+          },
+          {
+            'id': 'IV',
+            'savol': "Quyidagi jismlardan qaysi biri ko'rinadigan traektoriyani qoldiradi?",
+            'kalit': [
+              {
+                'text': "Tog'larda tosh qulashi"
+              },
+              {
+                'text': "O'yin davomida to'p"
+              },
+              {
+                'text': "Chang'ichi yangi trekni yotqizmoqda"
+              },
+              {
+                'text': "Balandlikka sakrashni amalga oshirayotgan sportchi"
+              }
+            ]
+          },
+          {
+            'id': 'V',
+            'savol': "Quyidagi jismlardan qaysi biri to‘g‘ri chiziq bo‘ylab harakatlanadi?",
+            'kalit': [
+              {
+                'text': "daqiqa yelkasining oxiri"
+              },
+              {
+                'text': "Avtomobil keskin burilishda"
+              },
+              {
+                'text': "belanchak ustidagi bola"
+              },
+              {
+                'text': "Balandlikka sakrashni amalga oshirayotgan sportchi"
+              }
+            ]
+          },
+        ]
+      },
+      {
+        'id': 'V',
+        'mavzu nomi': 'Mehanik tebranishlar.',
+        'test': [
+          {
+            'id': 'I',
+            'savol': 'Fizika bu ...',
+            'kalit': [
+              {
+                'text': "tabiat hodisalarining muayyan qonuniyatlarini o‘rganuvchi fan;"
+              },
+              {
+                'text': "faqat materiyaning tuzilishini o'rganuvchi fan;"
+              },
+              {
+                'text': "tabiiy hodisalarning eng oddiy va ayni paytda eng umumiy qonuniyatlarini, materiyaning xossalari va tuzilishini hamda harakat qonuniyatlarini o‘rganuvchi fan;"
+              },
+              {
+                'text': "tabiatning eng oddiy va ayni paytda eng umumiy qonuniyatlarini o‘rganadigan fan."
+              }
+            ]
+          },
+          {
+            'id': 'II',
+            'savol': 'Moddiy nuqta - bu ...',
+            'kalit': [
+              {
+                'text': "o'lchamlari hisobga olingan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "bu masalada uning o'lchamlarini e'tiborsiz qoldirib bo'lmaydigan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "o'lchamlarini e'tiborsiz qoldirib bo'lmaydigan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "bu masalada o'lchamlarini e'tiborsiz qoldirish mumkin bo'lgan massali jism."
+              }
+            ]
+          },
+          {
+            'id': 'III',
+            'savol': "Bir tekis to'g'ri chiziqli harakat ... hisoblanadi",
+            'kalit': [
+              {
+                'text': "jism bir tekis harakatlanadigan traektoriya;"
+              },
+              {
+                'text': " tananing tezlik bilan harakat qilmaydigan harakati;"
+              },
+              {
+                'text': "jism doimiy modul tezlikda harakatlanadigan harakat"
+              },
+              {
+                'text': "jism doimiy modul tezlik bilan harakat qilmaydigan harakat y = const."
+              }
+            ]
+          },
+          {
+            'id': 'IV',
+            'savol': "Quyidagi jismlardan qaysi biri ko'rinadigan traektoriyani qoldiradi?",
+            'kalit': [
+              {
+                'text': "Tog'larda tosh qulashi"
+              },
+              {
+                'text': "O'yin davomida to'p"
+              },
+              {
+                'text': "Chang'ichi yangi trekni yotqizmoqda"
+              },
+              {
+                'text': "Balandlikka sakrashni amalga oshirayotgan sportchi"
+              }
+            ]
+          },
+          {
+            'id': 'V',
+            'savol': "Quyidagi jismlardan qaysi biri to‘g‘ri chiziq bo‘ylab harakatlanadi?",
+            'kalit': [
+              {
+                'text': "daqiqa yelkasining oxiri"
+              },
+              {
+                'text': "Avtomobil keskin burilishda"
+              },
+              {
+                'text': "belanchak ustidagi bola"
+              },
+              {
+                'text': "Balandlikka sakrashni amalga oshirayotgan sportchi"
+              }
+            ]
+          },
+        ]
+      },
+      {
+        'id': 'VI',
+        'mavzu nomi': 'Elastik to’lqinlar.',
+        'test': [
+          {
+            'id': 'I',
+            'savol': 'Fizika bu ...',
+            'kalit': [
+              {
+                'text': "tabiat hodisalarining muayyan qonuniyatlarini o‘rganuvchi fan;"
+              },
+              {
+                'text': "faqat materiyaning tuzilishini o'rganuvchi fan;"
+              },
+              {
+                'text': "tabiiy hodisalarning eng oddiy va ayni paytda eng umumiy qonuniyatlarini, materiyaning xossalari va tuzilishini hamda harakat qonuniyatlarini o‘rganuvchi fan;"
+              },
+              {
+                'text': "tabiatning eng oddiy va ayni paytda eng umumiy qonuniyatlarini o‘rganadigan fan."
+              }
+            ]
+          },
+          {
+            'id': 'II',
+            'savol': 'Moddiy nuqta - bu ...',
+            'kalit': [
+              {
+                'text': "o'lchamlari hisobga olingan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "bu masalada uning o'lchamlarini e'tiborsiz qoldirib bo'lmaydigan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "o'lchamlarini e'tiborsiz qoldirib bo'lmaydigan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "bu masalada o'lchamlarini e'tiborsiz qoldirish mumkin bo'lgan massali jism."
+              }
+            ]
+          },
+          {
+            'id': 'III',
+            'savol': "Bir tekis to'g'ri chiziqli harakat ... hisoblanadi",
+            'kalit': [
+              {
+                'text': "jism bir tekis harakatlanadigan traektoriya;"
+              },
+              {
+                'text': " tananing tezlik bilan harakat qilmaydigan harakati;"
+              },
+              {
+                'text': "jism doimiy modul tezlikda harakatlanadigan harakat"
+              },
+              {
+                'text': "jism doimiy modul tezlik bilan harakat qilmaydigan harakat y = const."
+              }
+            ]
+          },
+          {
+            'id': 'IV',
+            'savol': "Quyidagi jismlardan qaysi biri ko'rinadigan traektoriyani qoldiradi?",
+            'kalit': [
+              {
+                'text': "Tog'larda tosh qulashi"
+              },
+              {
+                'text': "O'yin davomida to'p"
+              },
+              {
+                'text': "Chang'ichi yangi trekni yotqizmoqda"
+              },
+              {
+                'text': "Balandlikka sakrashni amalga oshirayotgan sportchi"
+              }
+            ]
+          },
+          {
+            'id': 'V',
+            'savol': "Quyidagi jismlardan qaysi biri to‘g‘ri chiziq bo‘ylab harakatlanadi?",
+            'kalit': [
+              {
+                'text': "daqiqa yelkasining oxiri"
+              },
+              {
+                'text': "Avtomobil keskin burilishda"
+              },
+              {
+                'text': "belanchak ustidagi bola"
+              },
+              {
+                'text': "Balandlikka sakrashni amalga oshirayotgan sportchi"
+              }
+            ]
+          },
+        ]
+      },
+      {
+        'id': 'VII',
+        'mavzu nomi': 'Tebranish va to’lqinlar;',
+        'test': [
+          {
+            'id': 'I',
+            'savol': 'Fizika bu ...',
+            'kalit': [
+              {
+                'text': "tabiat hodisalarining muayyan qonuniyatlarini o‘rganuvchi fan;"
+              },
+              {
+                'text': "faqat materiyaning tuzilishini o'rganuvchi fan;"
+              },
+              {
+                'text': "tabiiy hodisalarning eng oddiy va ayni paytda eng umumiy qonuniyatlarini, materiyaning xossalari va tuzilishini hamda harakat qonuniyatlarini o‘rganuvchi fan;"
+              },
+              {
+                'text': "tabiatning eng oddiy va ayni paytda eng umumiy qonuniyatlarini o‘rganadigan fan."
+              }
+            ]
+          },
+          {
+            'id': 'II',
+            'savol': 'Moddiy nuqta - bu ...',
+            'kalit': [
+              {
+                'text': "o'lchamlari hisobga olingan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "bu masalada uning o'lchamlarini e'tiborsiz qoldirib bo'lmaydigan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "o'lchamlarini e'tiborsiz qoldirib bo'lmaydigan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "bu masalada o'lchamlarini e'tiborsiz qoldirish mumkin bo'lgan massali jism."
+              }
+            ]
+          },
+          {
+            'id': 'III',
+            'savol': "Bir tekis to'g'ri chiziqli harakat ... hisoblanadi",
+            'kalit': [
+              {
+                'text': "jism bir tekis harakatlanadigan traektoriya;"
+              },
+              {
+                'text': " tananing tezlik bilan harakat qilmaydigan harakati;"
+              },
+              {
+                'text': "jism doimiy modul tezlikda harakatlanadigan harakat"
+              },
+              {
+                'text': "jism doimiy modul tezlik bilan harakat qilmaydigan harakat y = const."
+              }
+            ]
+          },
+          {
+            'id': 'IV',
+            'savol': "Quyidagi jismlardan qaysi biri ko'rinadigan traektoriyani qoldiradi?",
+            'kalit': [
+              {
+                'text': "Tog'larda tosh qulashi"
+              },
+              {
+                'text': "O'yin davomida to'p"
+              },
+              {
+                'text': "Chang'ichi yangi trekni yotqizmoqda"
+              },
+              {
+                'text': "Balandlikka sakrashni amalga oshirayotgan sportchi"
+              }
+            ]
+          },
+          {
+            'id': 'V',
+            'savol': "Quyidagi jismlardan qaysi biri to‘g‘ri chiziq bo‘ylab harakatlanadi?",
+            'kalit': [
+              {
+                'text': "daqiqa yelkasining oxiri"
+              },
+              {
+                'text': "Avtomobil keskin burilishda"
+              },
+              {
+                'text': "belanchak ustidagi bola"
+              },
+              {
+                'text': "Balandlikka sakrashni amalga oshirayotgan sportchi"
+              }
+            ]
+          },
+        ]
+      },
+      {
+        'id': 'VIII',
+        'mavzu nomi': 'Amaliy optika.',
+        'test': [
+          {
+            'id': 'I',
+            'savol': 'Fizika bu ...',
+            'kalit': [
+              {
+                'text': "tabiat hodisalarining muayyan qonuniyatlarini o‘rganuvchi fan;"
+              },
+              {
+                'text': "faqat materiyaning tuzilishini o'rganuvchi fan;"
+              },
+              {
+                'text': "tabiiy hodisalarning eng oddiy va ayni paytda eng umumiy qonuniyatlarini, materiyaning xossalari va tuzilishini hamda harakat qonuniyatlarini o‘rganuvchi fan;"
+              },
+              {
+                'text': "tabiatning eng oddiy va ayni paytda eng umumiy qonuniyatlarini o‘rganadigan fan."
+              }
+            ]
+          },
+          {
+            'id': 'II',
+            'savol': 'Moddiy nuqta - bu ...',
+            'kalit': [
+              {
+                'text': "o'lchamlari hisobga olingan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "bu masalada uning o'lchamlarini e'tiborsiz qoldirib bo'lmaydigan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "o'lchamlarini e'tiborsiz qoldirib bo'lmaydigan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "bu masalada o'lchamlarini e'tiborsiz qoldirish mumkin bo'lgan massali jism."
+              }
+            ]
+          },
+          {
+            'id': 'III',
+            'savol': "Bir tekis to'g'ri chiziqli harakat ... hisoblanadi",
+            'kalit': [
+              {
+                'text': "jism bir tekis harakatlanadigan traektoriya;"
+              },
+              {
+                'text': " tananing tezlik bilan harakat qilmaydigan harakati;"
+              },
+              {
+                'text': "jism doimiy modul tezlikda harakatlanadigan harakat"
+              },
+              {
+                'text': "jism doimiy modul tezlik bilan harakat qilmaydigan harakat y = const."
+              }
+            ]
+          },
+          {
+            'id': 'IV',
+            'savol': "Quyidagi jismlardan qaysi biri ko'rinadigan traektoriyani qoldiradi?",
+            'kalit': [
+              {
+                'text': "Tog'larda tosh qulashi"
+              },
+              {
+                'text': "O'yin davomida to'p"
+              },
+              {
+                'text': "Chang'ichi yangi trekni yotqizmoqda"
+              },
+              {
+                'text': "Balandlikka sakrashni amalga oshirayotgan sportchi"
+              }
+            ]
+          },
+          {
+            'id': 'V',
+            'savol': "Quyidagi jismlardan qaysi biri to‘g‘ri chiziq bo‘ylab harakatlanadi?",
+            'kalit': [
+              {
+                'text': "daqiqa yelkasining oxiri"
+              },
+              {
+                'text': "Avtomobil keskin burilishda"
+              },
+              {
+                'text': "belanchak ustidagi bola"
+              },
+              {
+                'text': "Balandlikka sakrashni amalga oshirayotgan sportchi"
+              }
+            ]
+          },
+        ]
+      },
+      {
+        'id': 'IX',
+        'mavzu nomi': 'Kvant mexanikasi',
+        'test': [
+          {
+            'id': 'I',
+            'savol': 'Fizika bu ...',
+            'kalit': [
+              {
+                'text': "tabiat hodisalarining muayyan qonuniyatlarini o‘rganuvchi fan;"
+              },
+              {
+                'text': "faqat materiyaning tuzilishini o'rganuvchi fan;"
+              },
+              {
+                'text': "tabiiy hodisalarning eng oddiy va ayni paytda eng umumiy qonuniyatlarini, materiyaning xossalari va tuzilishini hamda harakat qonuniyatlarini o‘rganuvchi fan;"
+              },
+              {
+                'text': "tabiatning eng oddiy va ayni paytda eng umumiy qonuniyatlarini o‘rganadigan fan."
+              }
+            ]
+          },
+          {
+            'id': 'II',
+            'savol': 'Moddiy nuqta - bu ...',
+            'kalit': [
+              {
+                'text': "o'lchamlari hisobga olingan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "bu masalada uning o'lchamlarini e'tiborsiz qoldirib bo'lmaydigan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "o'lchamlarini e'tiborsiz qoldirib bo'lmaydigan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "bu masalada o'lchamlarini e'tiborsiz qoldirish mumkin bo'lgan massali jism."
+              }
+            ]
+          },
+          {
+            'id': 'III',
+            'savol': "Bir tekis to'g'ri chiziqli harakat ... hisoblanadi",
+            'kalit': [
+              {
+                'text': "jism bir tekis harakatlanadigan traektoriya;"
+              },
+              {
+                'text': " tananing tezlik bilan harakat qilmaydigan harakati;"
+              },
+              {
+                'text': "jism doimiy modul tezlikda harakatlanadigan harakat"
+              },
+              {
+                'text': "jism doimiy modul tezlik bilan harakat qilmaydigan harakat y = const."
+              }
+            ]
+          },
+          {
+            'id': 'IV',
+            'savol': "Quyidagi jismlardan qaysi biri ko'rinadigan traektoriyani qoldiradi?",
+            'kalit': [
+              {
+                'text': "Tog'larda tosh qulashi"
+              },
+              {
+                'text': "O'yin davomida to'p"
+              },
+              {
+                'text': "Chang'ichi yangi trekni yotqizmoqda"
+              },
+              {
+                'text': "Balandlikka sakrashni amalga oshirayotgan sportchi"
+              }
+            ]
+          },
+          {
+            'id': 'V',
+            'savol': "Quyidagi jismlardan qaysi biri to‘g‘ri chiziq bo‘ylab harakatlanadi?",
+            'kalit': [
+              {
+                'text': "daqiqa yelkasining oxiri"
+              },
+              {
+                'text': "Avtomobil keskin burilishda"
+              },
+              {
+                'text': "belanchak ustidagi bola"
+              },
+              {
+                'text': "Balandlikka sakrashni amalga oshirayotgan sportchi"
+              }
+            ]
+          },
+        ]
+      },
+      {
+        'id': 'IX',
+        'mavzu nomi': 'Gravitatsiya',
+        'test': [
+          {
+            'id': 'I',
+            'savol': 'Fizika bu ...',
+            'kalit': [
+              {
+                'text': "tabiat hodisalarining muayyan qonuniyatlarini o‘rganuvchi fan;"
+              },
+              {
+                'text': "faqat materiyaning tuzilishini o'rganuvchi fan;"
+              },
+              {
+                'text': "tabiiy hodisalarning eng oddiy va ayni paytda eng umumiy qonuniyatlarini, materiyaning xossalari va tuzilishini hamda harakat qonuniyatlarini o‘rganuvchi fan;"
+              },
+              {
+                'text': "tabiatning eng oddiy va ayni paytda eng umumiy qonuniyatlarini o‘rganadigan fan."
+              }
+            ]
+          },
+          {
+            'id': 'II',
+            'savol': 'Moddiy nuqta - bu ...',
+            'kalit': [
+              {
+                'text': "o'lchamlari hisobga olingan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "bu masalada uning o'lchamlarini e'tiborsiz qoldirib bo'lmaydigan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "o'lchamlarini e'tiborsiz qoldirib bo'lmaydigan massaga ega bo'lgan jism;"
+              },
+              {
+                'text': "bu masalada o'lchamlarini e'tiborsiz qoldirish mumkin bo'lgan massali jism."
+              }
+            ]
+          },
+          {
+            'id': 'III',
+            'savol': "Bir tekis to'g'ri chiziqli harakat ... hisoblanadi",
+            'kalit': [
+              {
+                'text': "jism bir tekis harakatlanadigan traektoriya;"
+              },
+              {
+                'text': " tananing tezlik bilan harakat qilmaydigan harakati;"
+              },
+              {
+                'text': "jism doimiy modul tezlikda harakatlanadigan harakat"
+              },
+              {
+                'text': "jism doimiy modul tezlik bilan harakat qilmaydigan harakat y = const."
+              }
+            ]
+          },
+          {
+            'id': 'IV',
+            'savol': "Quyidagi jismlardan qaysi biri ko'rinadigan traektoriyani qoldiradi?",
+            'kalit': [
+              {
+                'text': "Tog'larda tosh qulashi"
+              },
+              {
+                'text': "O'yin davomida to'p"
+              },
+              {
+                'text': "Chang'ichi yangi trekni yotqizmoqda"
+              },
+              {
+                'text': "Balandlikka sakrashni amalga oshirayotgan sportchi"
+              }
+            ]
+          },
+          {
+            'id': 'V',
+            'savol': "Quyidagi jismlardan qaysi biri to‘g‘ri chiziq bo‘ylab harakatlanadi?",
+            'kalit': [
+              {
+                'text': "daqiqa yelkasining oxiri"
+              },
+              {
+                'text': "Avtomobil keskin burilishda"
+              },
+              {
+                'text': "belanchak ustidagi bola"
+              },
+              {
+                'text': "Balandlikka sakrashni amalga oshirayotgan sportchi"
+              }
+            ]
+          },
+        ]
+      },
+    ]
   },
 
   {
     'fan nomi': 'Ingliz tili',
-  },
-
-  {
-    'fan nomi': 'Dasturlash',
+    'mavzular': [
+      {
+        'id': 'I',
+        'mavzu nomi': ' Personal pronouns',
+        'test': [
+          {
+            'id': 'I',
+            'savol': '”Hechqachon” qanday tarjima qilinadi?',
+            'kalit': [
+              {
+                'text': "Sometimes"
+              },
+              {
+                'text': "always"
+              },
+              {
+                'text': "never"
+              },
+              {
+                'text': "Skeads"
+              },  
+            ]
+          },
+          {
+            'id': 'II',
+            'savol': 'I never have breakfast.',
+            'kalit': [
+              {
+                'text': "Men kechgacha nonushta qilaman."
+              },
+              {
+                'text': "Men har doim nonushta qilaman"
+              },
+              {
+                'text': "Men hech qachon nonushta qilmayman."
+              },
+              {
+                'text': "Men nonushta qilishni xohlamayman"
+              },  
+            ]
+          },
+          {
+            'id': 'III',
+            'savol': 'Have  you got a hobby?',
+            'kalit': [
+              {
+                'text': "I like collecting stamps"
+              },
+              {
+                'text': "Rustam likes playing chess"
+              },
+              {
+                'text': "My sister’s hobby is playing draughts."
+              },
+              {
+                'text': "Listen to music"
+              },  
+            ]
+          },
+          {
+            'id': 'IV',
+            'savol': '”Sit, time, five, sister “ o’zbek tiliga qanday tarjima qilinadi?',
+            'kalit': [
+              {
+                'text': "O’tirmoq,turmoq,soat,besh,singil"
+              },
+              {
+                'text': "Turmoq,tarjima qilmoq,o’qimoq,to’rt, singil"
+              },
+              {
+                'text': "O’tirmoq,vaqt,besh,opa"
+              },
+              {
+                'text': "yotmoq, yiqilmoq, vaqt, sakramoq"
+              },  
+            ]
+          },
+          {
+            'id': 'V',
+            'savol': '” It is a pen. “ gapini to’g’ri tarjimasi berilgan qatorni aniqlang',
+            'kalit': [
+              {
+                'text': "U ruchka"
+              },
+              {
+                'text': " U ruchkami?"
+              },
+              {
+                'text': "U yerda ruchka bormi?"
+              },
+              {
+                'text': "Is this a book?"
+              },  
+            ]
+          },
+        ]
+      },
+      {
+        'id': 'II',
+        'mavzu nomi': 'Must / Might',
+        'test': [
+          {
+            'id': 'I',
+            'savol': '”Hechqachon” qanday tarjima qilinadi?',
+            'kalit': [
+              {
+                'text': "Sometimes"
+              },
+              {
+                'text': "always"
+              },
+              {
+                'text': "never"
+              },
+              {
+                'text': "Skeads"
+              },  
+            ]
+          },
+          {
+            'id': 'II',
+            'savol': 'I never have breakfast.',
+            'kalit': [
+              {
+                'text': "Men kechgacha nonushta qilaman."
+              },
+              {
+                'text': "Men har doim nonushta qilaman"
+              },
+              {
+                'text': "Men hech qachon nonushta qilmayman."
+              },
+              {
+                'text': "Men nonushta qilishni xohlamayman"
+              },  
+            ]
+          },
+          {
+            'id': 'III',
+            'savol': 'Have  you got a hobby?',
+            'kalit': [
+              {
+                'text': "I like collecting stamps"
+              },
+              {
+                'text': "Rustam likes playing chess"
+              },
+              {
+                'text': "My sister’s hobby is playing draughts."
+              },
+              {
+                'text': "Listen to music"
+              },  
+            ]
+          },
+          {
+            'id': 'IV',
+            'savol': '”Sit, time, five, sister “ o’zbek tiliga qanday tarjima qilinadi?',
+            'kalit': [
+              {
+                'text': "O’tirmoq,turmoq,soat,besh,singil"
+              },
+              {
+                'text': "Turmoq,tarjima qilmoq,o’qimoq,to’rt, singil"
+              },
+              {
+                'text': "O’tirmoq,vaqt,besh,opa"
+              },
+              {
+                'text': "yotmoq, yiqilmoq, vaqt, sakramoq"
+              },  
+            ]
+          },
+          {
+            'id': 'V',
+            'savol': '” It is a pen. “ gapini to’g’ri tarjimasi berilgan qatorni aniqlang',
+            'kalit': [
+              {
+                'text': "U ruchka"
+              },
+              {
+                'text': " U ruchkami?"
+              },
+              {
+                'text': "U yerda ruchka bormi?"
+              },
+              {
+                'text': "Is this a book?"
+              },  
+            ]
+          },
+        ]
+      },
+      {
+        'id': 'III',
+        'mavzu nomi': 'To be / can /can\'t',
+        'test': [
+          {
+            'id': 'I',
+            'savol': '”Hechqachon” qanday tarjima qilinadi?',
+            'kalit': [
+              {
+                'text': "Sometimes"
+              },
+              {
+                'text': "always"
+              },
+              {
+                'text': "never"
+              },
+              {
+                'text': "Skeads"
+              },  
+            ]
+          },
+          {
+            'id': 'II',
+            'savol': 'I never have breakfast.',
+            'kalit': [
+              {
+                'text': "Men kechgacha nonushta qilaman."
+              },
+              {
+                'text': "Men har doim nonushta qilaman"
+              },
+              {
+                'text': "Men hech qachon nonushta qilmayman."
+              },
+              {
+                'text': "Men nonushta qilishni xohlamayman"
+              },  
+            ]
+          },
+          {
+            'id': 'III',
+            'savol': 'Have  you got a hobby?',
+            'kalit': [
+              {
+                'text': "I like collecting stamps"
+              },
+              {
+                'text': "Rustam likes playing chess"
+              },
+              {
+                'text': "My sister’s hobby is playing draughts."
+              },
+              {
+                'text': "Listen to music"
+              },  
+            ]
+          },
+          {
+            'id': 'IV',
+            'savol': '”Sit, time, five, sister “ o’zbek tiliga qanday tarjima qilinadi?',
+            'kalit': [
+              {
+                'text': "O’tirmoq,turmoq,soat,besh,singil"
+              },
+              {
+                'text': "Turmoq,tarjima qilmoq,o’qimoq,to’rt, singil"
+              },
+              {
+                'text': "O’tirmoq,vaqt,besh,opa"
+              },
+              {
+                'text': "yotmoq, yiqilmoq, vaqt, sakramoq"
+              },  
+            ]
+          },
+          {
+            'id': 'V',
+            'savol': '” It is a pen. “ gapini to’g’ri tarjimasi berilgan qatorni aniqlang',
+            'kalit': [
+              {
+                'text': "U ruchka"
+              },
+              {
+                'text': " U ruchkami?"
+              },
+              {
+                'text': "U yerda ruchka bormi?"
+              },
+              {
+                'text': "Is this a book?"
+              },  
+            ]
+          },
+        ]
+      },
+      {
+        'id': 'IV',
+        'mavzu nomi': ' Present Perfect continuous',
+        'test': [
+          {
+            'id': 'I',
+            'savol': '”Hechqachon” qanday tarjima qilinadi?',
+            'kalit': [
+              {
+                'text': "Sometimes"
+              },
+              {
+                'text': "always"
+              },
+              {
+                'text': "never"
+              },
+              {
+                'text': "Skeads"
+              },  
+            ]
+          },
+          {
+            'id': 'II',
+            'savol': 'I never have breakfast.',
+            'kalit': [
+              {
+                'text': "Men kechgacha nonushta qilaman."
+              },
+              {
+                'text': "Men har doim nonushta qilaman"
+              },
+              {
+                'text': "Men hech qachon nonushta qilmayman."
+              },
+              {
+                'text': "Men nonushta qilishni xohlamayman"
+              },  
+            ]
+          },
+          {
+            'id': 'III',
+            'savol': 'Have  you got a hobby?',
+            'kalit': [
+              {
+                'text': "I like collecting stamps"
+              },
+              {
+                'text': "Rustam likes playing chess"
+              },
+              {
+                'text': "My sister’s hobby is playing draughts."
+              },
+              {
+                'text': "Listen to music"
+              },  
+            ]
+          },
+          {
+            'id': 'IV',
+            'savol': '”Sit, time, five, sister “ o’zbek tiliga qanday tarjima qilinadi?',
+            'kalit': [
+              {
+                'text': "O’tirmoq,turmoq,soat,besh,singil"
+              },
+              {
+                'text': "Turmoq,tarjima qilmoq,o’qimoq,to’rt, singil"
+              },
+              {
+                'text': "O’tirmoq,vaqt,besh,opa"
+              },
+              {
+                'text': "yotmoq, yiqilmoq, vaqt, sakramoq"
+              },  
+            ]
+          },
+          {
+            'id': 'V',
+            'savol': '” It is a pen. “ gapini to’g’ri tarjimasi berilgan qatorni aniqlang',
+            'kalit': [
+              {
+                'text': "U ruchka"
+              },
+              {
+                'text': " U ruchkami?"
+              },
+              {
+                'text': "U yerda ruchka bormi?"
+              },
+              {
+                'text': "Is this a book?"
+              },  
+            ]
+          },
+        ]
+      },
+      {
+        'id': 'V',
+        'mavzu nomi': ' Need / Needn\'t',
+        'test': [
+          {
+            'id': 'I',
+            'savol': '”Hechqachon” qanday tarjima qilinadi?',
+            'kalit': [
+              {
+                'text': "Sometimes"
+              },
+              {
+                'text': "always"
+              },
+              {
+                'text': "never"
+              },
+              {
+                'text': "Skeads"
+              },  
+            ]
+          },
+          {
+            'id': 'II',
+            'savol': 'I never have breakfast.',
+            'kalit': [
+              {
+                'text': "Men kechgacha nonushta qilaman."
+              },
+              {
+                'text': "Men har doim nonushta qilaman"
+              },
+              {
+                'text': "Men hech qachon nonushta qilmayman."
+              },
+              {
+                'text': "Men nonushta qilishni xohlamayman"
+              },  
+            ]
+          },
+          {
+            'id': 'III',
+            'savol': 'Have  you got a hobby?',
+            'kalit': [
+              {
+                'text': "I like collecting stamps"
+              },
+              {
+                'text': "Rustam likes playing chess"
+              },
+              {
+                'text': "My sister’s hobby is playing draughts."
+              },
+              {
+                'text': "Listen to music"
+              },  
+            ]
+          },
+          {
+            'id': 'IV',
+            'savol': '”Sit, time, five, sister “ o’zbek tiliga qanday tarjima qilinadi?',
+            'kalit': [
+              {
+                'text': "O’tirmoq,turmoq,soat,besh,singil"
+              },
+              {
+                'text': "Turmoq,tarjima qilmoq,o’qimoq,to’rt, singil"
+              },
+              {
+                'text': "O’tirmoq,vaqt,besh,opa"
+              },
+              {
+                'text': "yotmoq, yiqilmoq, vaqt, sakramoq"
+              },  
+            ]
+          },
+          {
+            'id': 'V',
+            'savol': '” It is a pen. “ gapini to’g’ri tarjimasi berilgan qatorni aniqlang',
+            'kalit': [
+              {
+                'text': "U ruchka"
+              },
+              {
+                'text': " U ruchkami?"
+              },
+              {
+                'text': "U yerda ruchka bormi?"
+              },
+              {
+                'text': "Is this a book?"
+              },  
+            ]
+          },
+        ]
+      },
+      {
+        'id': 'VI',
+        'mavzu nomi': ' Present continuous',
+        'test': [
+          {
+            'id': 'I',
+            'savol': '”Hechqachon” qanday tarjima qilinadi?',
+            'kalit': [
+              {
+                'text': "Sometimes"
+              },
+              {
+                'text': "always"
+              },
+              {
+                'text': "never"
+              },
+              {
+                'text': "Skeads"
+              },  
+            ]
+          },
+          {
+            'id': 'II',
+            'savol': 'I never have breakfast.',
+            'kalit': [
+              {
+                'text': "Men kechgacha nonushta qilaman."
+              },
+              {
+                'text': "Men har doim nonushta qilaman"
+              },
+              {
+                'text': "Men hech qachon nonushta qilmayman."
+              },
+              {
+                'text': "Men nonushta qilishni xohlamayman"
+              },  
+            ]
+          },
+          {
+            'id': 'III',
+            'savol': 'Have  you got a hobby?',
+            'kalit': [
+              {
+                'text': "I like collecting stamps"
+              },
+              {
+                'text': "Rustam likes playing chess"
+              },
+              {
+                'text': "My sister’s hobby is playing draughts."
+              },
+              {
+                'text': "Listen to music"
+              },  
+            ]
+          },
+          {
+            'id': 'IV',
+            'savol': '”Sit, time, five, sister “ o’zbek tiliga qanday tarjima qilinadi?',
+            'kalit': [
+              {
+                'text': "O’tirmoq,turmoq,soat,besh,singil"
+              },
+              {
+                'text': "Turmoq,tarjima qilmoq,o’qimoq,to’rt, singil"
+              },
+              {
+                'text': "O’tirmoq,vaqt,besh,opa"
+              },
+              {
+                'text': "yotmoq, yiqilmoq, vaqt, sakramoq"
+              },  
+            ]
+          },
+          {
+            'id': 'V',
+            'savol': '” It is a pen. “ gapini to’g’ri tarjimasi berilgan qatorni aniqlang',
+            'kalit': [
+              {
+                'text': "U ruchka"
+              },
+              {
+                'text': " U ruchkami?"
+              },
+              {
+                'text': "U yerda ruchka bormi?"
+              },
+              {
+                'text': "Is this a book?"
+              },  
+            ]
+          },
+        ]
+      },
+      {
+        'id': 'VII',
+        'mavzu nomi': 'Present Perfect',
+        'test': [
+          {
+            'id': 'I',
+            'savol': '”Hechqachon” qanday tarjima qilinadi?',
+            'kalit': [
+              {
+                'text': "Sometimes"
+              },
+              {
+                'text': "always"
+              },
+              {
+                'text': "never"
+              },
+              {
+                'text': "Skeads"
+              },  
+            ]
+          },
+          {
+            'id': 'II',
+            'savol': 'I never have breakfast.',
+            'kalit': [
+              {
+                'text': "Men kechgacha nonushta qilaman."
+              },
+              {
+                'text': "Men har doim nonushta qilaman"
+              },
+              {
+                'text': "Men hech qachon nonushta qilmayman."
+              },
+              {
+                'text': "Men nonushta qilishni xohlamayman"
+              },  
+            ]
+          },
+          {
+            'id': 'III',
+            'savol': 'Have  you got a hobby?',
+            'kalit': [
+              {
+                'text': "I like collecting stamps"
+              },
+              {
+                'text': "Rustam likes playing chess"
+              },
+              {
+                'text': "My sister’s hobby is playing draughts."
+              },
+              {
+                'text': "Listen to music"
+              },  
+            ]
+          },
+          {
+            'id': 'IV',
+            'savol': '”Sit, time, five, sister “ o’zbek tiliga qanday tarjima qilinadi?',
+            'kalit': [
+              {
+                'text': "O’tirmoq,turmoq,soat,besh,singil"
+              },
+              {
+                'text': "Turmoq,tarjima qilmoq,o’qimoq,to’rt, singil"
+              },
+              {
+                'text': "O’tirmoq,vaqt,besh,opa"
+              },
+              {
+                'text': "yotmoq, yiqilmoq, vaqt, sakramoq"
+              },  
+            ]
+          },
+          {
+            'id': 'V',
+            'savol': '” It is a pen. “ gapini to’g’ri tarjimasi berilgan qatorni aniqlang',
+            'kalit': [
+              {
+                'text': "U ruchka"
+              },
+              {
+                'text': " U ruchkami?"
+              },
+              {
+                'text': "U yerda ruchka bormi?"
+              },
+              {
+                'text': "Is this a book?"
+              },  
+            ]
+          },
+        ]
+      },
+      {
+        'id': 'VIII',
+        'mavzu nomi': 'Present simple',
+        'test': [
+          {
+            'id': 'I',
+            'savol': '”Hechqachon” qanday tarjima qilinadi?',
+            'kalit': [
+              {
+                'text': "Sometimes"
+              },
+              {
+                'text': "always"
+              },
+              {
+                'text': "never"
+              },
+              {
+                'text': "Skeads"
+              },  
+            ]
+          },
+          {
+            'id': 'II',
+            'savol': 'I never have breakfast.',
+            'kalit': [
+              {
+                'text': "Men kechgacha nonushta qilaman."
+              },
+              {
+                'text': "Men har doim nonushta qilaman"
+              },
+              {
+                'text': "Men hech qachon nonushta qilmayman."
+              },
+              {
+                'text': "Men nonushta qilishni xohlamayman"
+              },  
+            ]
+          },
+          {
+            'id': 'III',
+            'savol': 'Have  you got a hobby?',
+            'kalit': [
+              {
+                'text': "I like collecting stamps"
+              },
+              {
+                'text': "Rustam likes playing chess"
+              },
+              {
+                'text': "My sister’s hobby is playing draughts."
+              },
+              {
+                'text': "Listen to music"
+              },  
+            ]
+          },
+          {
+            'id': 'IV',
+            'savol': '”Sit, time, five, sister “ o’zbek tiliga qanday tarjima qilinadi?',
+            'kalit': [
+              {
+                'text': "O’tirmoq,turmoq,soat,besh,singil"
+              },
+              {
+                'text': "Turmoq,tarjima qilmoq,o’qimoq,to’rt, singil"
+              },
+              {
+                'text': "O’tirmoq,vaqt,besh,opa"
+              },
+              {
+                'text': "yotmoq, yiqilmoq, vaqt, sakramoq"
+              },  
+            ]
+          },
+          {
+            'id': 'V',
+            'savol': '” It is a pen. “ gapini to’g’ri tarjimasi berilgan qatorni aniqlang',
+            'kalit': [
+              {
+                'text': "U ruchka"
+              },
+              {
+                'text': " U ruchkami?"
+              },
+              {
+                'text': "U yerda ruchka bormi?"
+              },
+              {
+                'text': "Is this a book?"
+              },  
+            ]
+          },
+        ]
+      },
+      {
+        'id': 'IX',
+        'mavzu nomi': ' Past simple',
+        'test': [
+          {
+            'id': 'I',
+            'savol': '”Hechqachon” qanday tarjima qilinadi?',
+            'kalit': [
+              {
+                'text': "Sometimes"
+              },
+              {
+                'text': "always"
+              },
+              {
+                'text': "never"
+              },
+              {
+                'text': "Skeads"
+              },  
+            ]
+          },
+          {
+            'id': 'II',
+            'savol': 'I never have breakfast.',
+            'kalit': [
+              {
+                'text': "Men kechgacha nonushta qilaman."
+              },
+              {
+                'text': "Men har doim nonushta qilaman"
+              },
+              {
+                'text': "Men hech qachon nonushta qilmayman."
+              },
+              {
+                'text': "Men nonushta qilishni xohlamayman"
+              },  
+            ]
+          },
+          {
+            'id': 'III',
+            'savol': 'Have  you got a hobby?',
+            'kalit': [
+              {
+                'text': "I like collecting stamps"
+              },
+              {
+                'text': "Rustam likes playing chess"
+              },
+              {
+                'text': "My sister’s hobby is playing draughts."
+              },
+              {
+                'text': "Listen to music"
+              },  
+            ]
+          },
+          {
+            'id': 'IV',
+            'savol': '”Sit, time, five, sister “ o’zbek tiliga qanday tarjima qilinadi?',
+            'kalit': [
+              {
+                'text': "O’tirmoq,turmoq,soat,besh,singil"
+              },
+              {
+                'text': "Turmoq,tarjima qilmoq,o’qimoq,to’rt, singil"
+              },
+              {
+                'text': "O’tirmoq,vaqt,besh,opa"
+              },
+              {
+                'text': "yotmoq, yiqilmoq, vaqt, sakramoq"
+              },  
+            ]
+          },
+          {
+            'id': 'V',
+            'savol': '” It is a pen. “ gapini to’g’ri tarjimasi berilgan qatorni aniqlang',
+            'kalit': [
+              {
+                'text': "U ruchka"
+              },
+              {
+                'text': " U ruchkami?"
+              },
+              {
+                'text': "U yerda ruchka bormi?"
+              },
+              {
+                'text': "Is this a book?"
+              },  
+            ]
+          },
+        ]
+      },
+      {
+        'id': 'X',
+        'mavzu nomi': 'Preposition of place',
+        'test': [
+          {
+            'id': 'I',
+            'savol': '”Hechqachon” qanday tarjima qilinadi?',
+            'kalit': [
+              {
+                'text': "Sometimes"
+              },
+              {
+                'text': "always"
+              },
+              {
+                'text': "never"
+              },
+              {
+                'text': "Skeads"
+              },  
+            ]
+          },
+          {
+            'id': 'II',
+            'savol': 'I never have breakfast.',
+            'kalit': [
+              {
+                'text': "Men kechgacha nonushta qilaman."
+              },
+              {
+                'text': "Men har doim nonushta qilaman"
+              },
+              {
+                'text': "Men hech qachon nonushta qilmayman."
+              },
+              {
+                'text': "Men nonushta qilishni xohlamayman"
+              },  
+            ]
+          },
+          {
+            'id': 'III',
+            'savol': 'Have  you got a hobby?',
+            'kalit': [
+              {
+                'text': "I like collecting stamps"
+              },
+              {
+                'text': "Rustam likes playing chess"
+              },
+              {
+                'text': "My sister’s hobby is playing draughts."
+              },
+              {
+                'text': "Listen to music"
+              },  
+            ]
+          },
+          {
+            'id': 'IV',
+            'savol': '”Sit, time, five, sister “ o’zbek tiliga qanday tarjima qilinadi?',
+            'kalit': [
+              {
+                'text': "O’tirmoq,turmoq,soat,besh,singil"
+              },
+              {
+                'text': "Turmoq,tarjima qilmoq,o’qimoq,to’rt, singil"
+              },
+              {
+                'text': "O’tirmoq,vaqt,besh,opa"
+              },
+              {
+                'text': "yotmoq, yiqilmoq, vaqt, sakramoq"
+              },  
+            ]
+          },
+          {
+            'id': 'V',
+            'savol': '” It is a pen. “ gapini to’g’ri tarjimasi berilgan qatorni aniqlang',
+            'kalit': [
+              {
+                'text': "U ruchka"
+              },
+              {
+                'text': " U ruchkami?"
+              },
+              {
+                'text': "U yerda ruchka bormi?"
+              },
+              {
+                'text': "Is this a book?"
+              },  
+            ]
+          },
+        ]
+      },
+    ]
   },
 ];
